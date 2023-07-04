@@ -1,3 +1,14 @@
+---
+name: Dockle plugin for Woodpecker-CI
+authors: EuryeceTelecom
+description: Scan containers with dockle
+tags: [check, security, dockle, vulnerabilities, misconfigurations, secrets]
+containerImage: euryecetelecom/woodpeckerci-kubernetes
+containerImageUrl: https://hub.docker.com/r/euryecetelecom/woodpeckerci-kubernetes
+url: https://github.com/euryecetelecom/woodpeckerci-kubernetes
+---
+
+
 # Dockle plugin for Woodpecker-CI
 
 Woodpecker-CI plugin to scan containers with dockle (Container Image Linter for Security, Helping build the Best-Practice Docker Image) https://github.com/goodwithtech/dockle.
