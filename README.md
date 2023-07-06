@@ -21,6 +21,7 @@ Woodpecker-CI plugin to scan containers with dockle (Container Image Linter for 
 | `exit-code`               | `1`                   | If an issue is detected let the step fail
 | `exit-level`              | `warn`                | Define alert levels (can be info, warn or fatal)
 | `build-directory`         | `${CI_WORKSPACE}`     | Directory containing the Dockerfile to use to build the container
+| `dockerfile`              | `Dockerfile`          | Dockerfile to use
 | `dockle-ignores`          | *none*                | Dockle rules to ignore (cf https://github.com/goodwithtech/dockle/blob/master/CHECKPOINT.md)
 
 
@@ -47,6 +48,8 @@ pipeline:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     settings:
+      dockerfile: MyCustomDockerfile
+      build-directory: ./docker
       exit-code: 0
       exit-level: info
       dockle-ignores: CIS-DI-0001,DKL-DI-0006
