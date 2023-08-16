@@ -3,9 +3,9 @@ name: Dockle plugin for Woodpecker-CI
 authors: EuryeceTelecom
 description: Scan containers with dockle
 tags: [check, security, dockle, vulnerabilities, misconfigurations, secrets]
-containerImage: euryecetelecom/woodpeckerci-kubernetes
-containerImageUrl: https://hub.docker.com/r/euryecetelecom/woodpeckerci-kubernetes
-url: https://github.com/euryecetelecom/woodpeckerci-kubernetes
+containerImage: euryecetelecom/woodpeckerci-dockle
+containerImageUrl: https://hub.docker.com/r/euryecetelecom/woodpeckerci-dockle
+url: https://github.com/euryecetelecom/woodpeckerci-dockle
 ---
 
 
