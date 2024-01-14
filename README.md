@@ -1,6 +1,6 @@
 ---
 name: Dockle plugin for Woodpecker-CI
-authors: EuryeceTelecom
+author: EuryeceTelecom
 description: Scan containers with dockle
 tags: [check, security, dockle, vulnerabilities, misconfigurations, secrets]
 containerImage: euryecetelecom/woodpeckerci-dockle
